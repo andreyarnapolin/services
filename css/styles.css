@@ -1,0 +1,51 @@
+body {
+  font-family: "Proxima Nova", Arial, sans-serif;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+div {
+  margin: 0 auto;
+}
+
+.menu p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 20px;
+  text-align: center;
+}
+
+.border {
+  border: 1px solid #0069aa;
+  border-radius: 50%;
+  width: 65px;
+  height: 65px;
+  background: #0069aa;
+}
+
+svg {
+  padding: 20px 20px;
+  fill: white;
+  transition: 0.3s;
+}
+
+.border:hover,
+.border:hover path {
+  background-color: white;
+  fill: #2a69a6;
+  transition: 0.3s;
+}
+
+h1 {
+  padding: 20px;
+}
+p {
+  color: grey;
+}
